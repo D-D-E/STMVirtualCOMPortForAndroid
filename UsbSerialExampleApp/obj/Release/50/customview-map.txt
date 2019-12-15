@@ -1,0 +1,4 @@
+resources;C:\Users\dashk\OneDrive\Desktop\UsbSerialForAndroid-master\UsbSerialExampleApp\obj\Release\50\lp\0\jl\res\values\strings.xml
+resources;obj\Release\50\res\values\strings.xml
+string;C:\Users\dashk\OneDrive\Desktop\UsbSerialForAndroid-master\UsbSerialExampleApp\obj\Release\50\lp\0\jl\res\values\strings.xml
+string;obj\Release\50\res\values\strings.xml

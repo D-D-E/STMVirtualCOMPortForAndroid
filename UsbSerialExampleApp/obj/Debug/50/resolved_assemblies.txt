@@ -1,0 +1,14 @@
+C:\Users\dashk\OneDrive\Desktop\UsbSerialForAndroid-master\UsbSerialExampleApp\obj\Debug\50\android\assets\UsbSerialExampleApp.dll
+C:\Users\dashk\OneDrive\Desktop\UsbSerialForAndroid-master\UsbSerialExampleApp\obj\Debug\50\android\assets\Android.UsbSerial.dll
+C:\Users\dashk\OneDrive\Desktop\UsbSerialForAndroid-master\UsbSerialExampleApp\obj\Debug\50\android\assets\Java.Interop.dll
+C:\Users\dashk\OneDrive\Desktop\UsbSerialForAndroid-master\UsbSerialExampleApp\obj\Debug\50\android\assets\Mono.Android.dll
+C:\Users\dashk\OneDrive\Desktop\UsbSerialForAndroid-master\UsbSerialExampleApp\obj\Debug\50\android\assets\Mono.Android.Export.dll
+C:\Users\dashk\OneDrive\Desktop\UsbSerialForAndroid-master\UsbSerialExampleApp\obj\Debug\50\android\assets\mscorlib.dll
+C:\Users\dashk\OneDrive\Desktop\UsbSerialForAndroid-master\UsbSerialExampleApp\obj\Debug\50\android\assets\System.Core.dll
+C:\Users\dashk\OneDrive\Desktop\UsbSerialForAndroid-master\UsbSerialExampleApp\obj\Debug\50\android\assets\System.dll
+C:\Users\dashk\OneDrive\Desktop\UsbSerialForAndroid-master\UsbSerialExampleApp\obj\Debug\50\android\assets\System.Xml.dll
+C:\Users\dashk\OneDrive\Desktop\UsbSerialForAndroid-master\UsbSerialExampleApp\obj\Debug\50\android\assets\System.Xml.Linq.dll
+C:\Users\dashk\OneDrive\Desktop\UsbSerialForAndroid-master\UsbSerialExampleApp\obj\Debug\50\android\assets\System.Net.Http.dll
+C:\Users\dashk\OneDrive\Desktop\UsbSerialForAndroid-master\UsbSerialExampleApp\obj\Debug\50\android\assets\System.Runtime.Serialization.dll
+C:\Users\dashk\OneDrive\Desktop\UsbSerialForAndroid-master\UsbSerialExampleApp\obj\Debug\50\android\assets\System.ServiceModel.Internals.dll
+C:\Users\dashk\OneDrive\Desktop\UsbSerialForAndroid-master\UsbSerialExampleApp\obj\Debug\50\android\assets\Mono.Security.dll

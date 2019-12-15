@@ -1,0 +1,16 @@
+Button;obj\Debug\44\res\layout\serial_console.xml
+ListView;obj\Debug\44\res\layout\main.xml
+ProgressBar;obj\Debug\44\res\layout\main.xml
+RelativeLayout;obj\Debug\44\res\layout\main.xml
+RelativeLayout;obj\Debug\44\res\layout\serial_console.xml
+resources;C:\Users\dashk\OneDrive\Desktop\UsbSerialForAndroid-master\UsbSerialExampleApp\obj\Debug\44\lp\0\jl\res\values\strings.xml
+resources;obj\Debug\44\res\values\strings.xml
+resources;obj\Debug\44\res\xml\device_filter.xml
+ScrollView;obj\Debug\44\res\layout\serial_console.xml
+string;C:\Users\dashk\OneDrive\Desktop\UsbSerialForAndroid-master\UsbSerialExampleApp\obj\Debug\44\lp\0\jl\res\values\strings.xml
+string;obj\Debug\44\res\values\strings.xml
+TextView;obj\Debug\44\res\layout\main.xml
+TextView;obj\Debug\44\res\layout\serial_console.xml
+usb-device;obj\Debug\44\res\xml\device_filter.xml
+View;obj\Debug\44\res\layout\main.xml
+View;obj\Debug\44\res\layout\serial_console.xml
