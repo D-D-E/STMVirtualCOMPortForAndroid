@@ -109,8 +109,8 @@ public class MonoPackageManager {
 
 class MonoPackageManager_Resources {
 	public static final String[] Assemblies = new String[]{
-		/* We need to ensure that "UsbSerialExampleApp.dll" comes first in this list. */
-		"UsbSerialExampleApp.dll",
+		/* We need to ensure that "UsbSerial.dll" comes first in this list. */
+		"UsbSerial.dll",
 		"Android.UsbSerial.dll",
 		"OxyPlot.dll",
 		"OxyPlot.Xamarin.Android.dll",

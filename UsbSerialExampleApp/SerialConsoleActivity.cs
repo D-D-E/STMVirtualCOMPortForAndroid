@@ -22,6 +22,7 @@
 
 using System;
 using System.Collections.Generic;
+using System.Text.RegularExpressions;
 using System.Linq;
 using System.Text;
 
@@ -40,7 +41,7 @@ using Hoho.Android.UsbSerial.Extensions;
 using Hoho.Android.UsbSerial.Util;
 
 
-namespace UsbSerialExampleApp
+namespace UsbSerial
 {
     [Activity(Label = "@string/app_name", LaunchMode = LaunchMode.SingleTop)]
     public class SerialConsoleActivity : Activity
@@ -54,7 +55,7 @@ namespace UsbSerialExampleApp
         UsbSerialPort port;
 
         UsbManager usbManager;
-        TextView titleTextView;
+        //TextView titleTextView;
         TextView dumpTextView;
         ScrollView scrollView;
         OxyPlot.Xamarin.Android.PlotView plotView;
@@ -72,7 +73,7 @@ namespace UsbSerialExampleApp
             SetContentView(Resource.Layout.serial_console);
 
             usbManager = GetSystemService(Context.UsbService) as UsbManager;
-            titleTextView = FindViewById<TextView>(Resource.Id.demoTitle);
+            //titleTextView = FindViewById<TextView>(Resource.Id.demoTitle);
             dumpTextView = FindViewById<TextView>(Resource.Id.consoleText);
             scrollView = FindViewById<ScrollView>(Resource.Id.demoScroller);
             plotView = FindViewById<OxyPlot.Xamarin.Android.PlotView>(Resource.Id.plotView1);
@@ -135,12 +136,12 @@ namespace UsbSerialExampleApp
             port = driver.Ports[portNumber];
             if (port == null)
             {
-                titleTextView.Text = "No serial device.";
+                //titleTextView.Text = "No serial device.";
                 return;
             }
             Log.Info(TAG, "port=" + port);
 
-            titleTextView.Text = "Serial device: " + port.GetType().Name;
+            //titleTextView.Text = "Serial device: " + port.GetType().Name;
 
             serialIoManager = new SerialInputOutputManager(port)
             {
@@ -168,7 +169,7 @@ namespace UsbSerialExampleApp
             }
             catch (Java.IO.IOException e)
             {
-                titleTextView.Text = "Error opening device: " + e.Message;
+                //titleTextView.Text = "Error opening device: " + e.Message;
                 return;
             }
         }
@@ -181,11 +182,41 @@ namespace UsbSerialExampleApp
             }
         }
 
+        void ConvertReceivedData(byte[] data)
+        {
+            var temp_port_value = "";
+            var temp_time = "";
+            int port = 0, time = 0;
+
+            for (int i = 0; i < 4; i++)
+                temp_port_value += Convert.ToChar(data[i]);
+            Int32.TryParse(temp_port_value, out port);
+
+            for (int i = 5; i < 11; i++)
+                temp_time += Convert.ToChar(data[i]);
+            Int32.TryParse(temp_time, out time);
+
+            string binary = Convert.ToString(port, 2);
+            if (binary.Length < 8)
+            {
+                binary += binary.PadLeft(8 - binary.Length, '0');
+            }
+            //binary.Reverse();
+
+            var message = binary + " " + time + "\r\n";
+            dumpTextView.Append(message);
+        }
+
         void UpdateReceivedData(byte[] data)
         {
-            var message = data.Length + " " + data + "\r\n";
+            //var message = data.Length + " ";
+            //for (int i = 0; i < data.Length; i++)
+            //    message += Convert.ToChar(data[i]);
+            //message += "\r\n";
 
-            dumpTextView.Append(message);
+            //dumpTextView.Append(message);
+            if(data.Length == 13 && data[4] == ':')
+                ConvertReceivedData(data);
             scrollView.SmoothScrollTo(0, dumpTextView.Bottom);
         }
     }

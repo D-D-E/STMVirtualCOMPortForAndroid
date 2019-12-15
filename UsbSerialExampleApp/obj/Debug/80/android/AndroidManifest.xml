@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="UsbSerialExampleApp.UsbSerialExampleApp" android:versionCode="1" android:versionName="1.0" android:installLocation="internalOnly">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="UsbSerial.UsbSerial" android:versionCode="1" android:versionName="1.0" android:installLocation="preferExternal">
   <uses-sdk android:minSdkVersion="21" android:targetSdkVersion="26" />
   <uses-permission android:name="android.permission.INTERNET" />
   <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
   <uses-feature android:name="android.hardware.usb.host" />
-  <application android:allowBackup="true" android:supportsRtl="true" android:label="UsbSerialExampleApp" android:icon="@drawable/icon" android:name="android.app.Application" android:debuggable="true">
-    <activity android:icon="@drawable/icon" android:label="UsbSerialExampleApp" android:name="md5090774ef8c6a8dc791877082a589738b.MainActivity">
+  <application android:allowBackup="true" android:supportsRtl="true" android:label="UsbSerial" android:icon="@drawable/icon1" android:name="android.app.Application" android:debuggable="true">
+    <activity android:icon="@drawable/icon" android:label="UsbSerialExampleApp" android:name="md57f9a05b5c149423a62b8593c73cd4226.MainActivity">
       <intent-filter>
         <action android:name="android.intent.action.MAIN" />
         <category android:name="android.intent.category.LAUNCHER" />
@@ -15,13 +15,13 @@
         <action android:name="android.hardware.usb.action.USB_DEVICE_ATTACHED" />
       </intent-filter>
     </activity>
-    <activity android:label="@string/app_name" android:launchMode="singleTop" android:name="md5090774ef8c6a8dc791877082a589738b.SerialConsoleActivity" />
-    <provider android:name="mono.MonoRuntimeProvider" android:exported="false" android:initOrder="1999999999" android:authorities="UsbSerialExampleApp.UsbSerialExampleApp.mono.MonoRuntimeProvider.__mono_init__" />
+    <activity android:label="@string/app_name" android:launchMode="singleTop" android:name="md57f9a05b5c149423a62b8593c73cd4226.SerialConsoleActivity" />
+    <provider android:name="mono.MonoRuntimeProvider" android:exported="false" android:initOrder="1999999999" android:authorities="UsbSerial.UsbSerial.mono.MonoRuntimeProvider.__mono_init__" />
     <!--suppress ExportedReceiver-->
     <receiver android:name="mono.android.Seppuku">
       <intent-filter>
         <action android:name="mono.android.intent.action.SEPPUKU" />
-        <category android:name="mono.android.intent.category.SEPPUKU.UsbSerialExampleApp.UsbSerialExampleApp" />
+        <category android:name="mono.android.intent.category.SEPPUKU.UsbSerial.UsbSerial" />
       </intent-filter>
     </receiver>
   </application>

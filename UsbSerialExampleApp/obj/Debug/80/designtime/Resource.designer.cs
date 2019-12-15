@@ -9,9 +9,9 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Android.Runtime.ResourceDesignerAttribute("UsbSerialExampleApp.Resource", IsApplication=true)]
+[assembly: global::Android.Runtime.ResourceDesignerAttribute("UsbSerial.Resource", IsApplication=true)]
 
-namespace UsbSerialExampleApp
+namespace UsbSerial
 {
 	
 	
@@ -26,8 +26,8 @@ namespace UsbSerialExampleApp
 		
 		public static void UpdateIdValues()
 		{
-			global::Hoho.Android.UsbSerial.Resource.String.ApplicationName = global::UsbSerialExampleApp.Resource.String.ApplicationName;
-			global::Hoho.Android.UsbSerial.Resource.String.Hello = global::UsbSerialExampleApp.Resource.String.Hello;
+			global::Hoho.Android.UsbSerial.Resource.String.ApplicationName = global::UsbSerial.Resource.String.ApplicationName;
+			global::Hoho.Android.UsbSerial.Resource.String.Hello = global::UsbSerial.Resource.String.Hello;
 		}
 		
 		public partial class Attribute
@@ -49,6 +49,9 @@ namespace UsbSerialExampleApp
 			// aapt resource value: 0x7F010002
 			public const int Icon = 2130771970;
 			
+			// aapt resource value: 0x7F010003
+			public const int icon1 = 2130771971;
+			
 			static Drawable()
 			{
 				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
@@ -62,20 +65,17 @@ namespace UsbSerialExampleApp
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7F030011
-			public const int consoleText = 2130903057;
-			
 			// aapt resource value: 0x7F030010
-			public const int demoScroller = 2130903056;
+			public const int consoleText = 2130903056;
 			
-			// aapt resource value: 0x7F030006
-			public const int demoTitle = 2130903046;
+			// aapt resource value: 0x7F030009
+			public const int demoScroller = 2130903049;
 			
 			// aapt resource value: 0x7F030005
 			public const int deviceList = 2130903045;
 			
-			// aapt resource value: 0x7F030007
-			public const int plotView1 = 2130903047;
+			// aapt resource value: 0x7F030006
+			public const int plotView1 = 2130903046;
 			
 			// aapt resource value: 0x7F030003
 			public const int progressBar = 2130903043;
@@ -86,11 +86,11 @@ namespace UsbSerialExampleApp
 			// aapt resource value: 0x7F030004
 			public const int separator = 2130903044;
 			
-			// aapt resource value: 0x7F030008
-			public const int startButton = 2130903048;
+			// aapt resource value: 0x7F030007
+			public const int startButton = 2130903047;
 			
-			// aapt resource value: 0x7F030009
-			public const int stopButton = 2130903049;
+			// aapt resource value: 0x7F030008
+			public const int stopButton = 2130903048;
 			
 			static Id()
 			{
@@ -116,9 +116,6 @@ namespace UsbSerialExampleApp
 			
 			// aapt resource value: 0x7F020005
 			public const int View1 = 2130837509;
-			
-			// aapt resource value: 0x7F020006
-			public const int View1.xaml = 2130837510;
 			
 			static Layout()
 			{
@@ -161,11 +158,27 @@ namespace UsbSerialExampleApp
 			}
 		}
 		
-		public partial class Xml
+		public partial class Style
 		{
 			
 			// aapt resource value: 0x7F050002
-			public const int device_filter = 2131034114;
+			public const int Theme_Custom = 2131034114;
+			
+			static Style()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Style()
+			{
+			}
+		}
+		
+		public partial class Xml
+		{
+			
+			// aapt resource value: 0x7F060002
+			public const int device_filter = 2131099650;
 			
 			static Xml()
 			{

@@ -1,4 +1,5 @@
 Button;obj\Debug\80\res\layout\serial_console.xml
+item;obj\Debug\80\res\values\style.xml
 LinearLayout;obj\Debug\80\res\layout\layout1.xml
 ListView;obj\Debug\80\res\layout\main.xml
 OxyPlot.Xamarin.Android.PlotView;obj\Debug\80\res\layout\serial_console.xml
@@ -7,10 +8,12 @@ RelativeLayout;obj\Debug\80\res\layout\main.xml
 RelativeLayout;obj\Debug\80\res\layout\serial_console.xml
 resources;C:\Users\dashk\OneDrive\Desktop\UsbSerialForAndroid-master\UsbSerialExampleApp\obj\Debug\80\lp\0\jl\res\values\strings.xml
 resources;obj\Debug\80\res\values\strings.xml
+resources;obj\Debug\80\res\values\style.xml
 resources;obj\Debug\80\res\xml\device_filter.xml
 ScrollView;obj\Debug\80\res\layout\serial_console.xml
 string;C:\Users\dashk\OneDrive\Desktop\UsbSerialForAndroid-master\UsbSerialExampleApp\obj\Debug\80\lp\0\jl\res\values\strings.xml
 string;obj\Debug\80\res\values\strings.xml
+style;obj\Debug\80\res\values\style.xml
 TextView;obj\Debug\80\res\layout\main.xml
 TextView;obj\Debug\80\res\layout\serial_console.xml
 usb-device;obj\Debug\80\res\xml\device_filter.xml

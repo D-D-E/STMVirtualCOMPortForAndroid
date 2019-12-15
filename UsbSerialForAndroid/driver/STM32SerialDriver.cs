@@ -57,7 +57,7 @@ namespace Hoho.Android.UsbSerial.Driver
 			bool mRts = false;
 			bool mDtr = false;
 
-			IUsbSerialDriver Driver;
+			private IUsbSerialDriver Driver; // without
 
 			const int USB_WRITE_TIMEOUT_MILLIS = 5000;
 
@@ -136,31 +136,31 @@ namespace Hoho.Android.UsbSerial.Driver
 
             public override int Read(byte[] dest, int timeoutMillis)
 			{
-				if(ENABLE_ASYNC_READS)
-				{
-					var request = new UsbRequest();
-					try
-					{
-						request.Initialize(mConnection, mReadEndpoint);
-						ByteBuffer buf = ByteBuffer.Wrap(dest);
-						if (!request.Queue(buf, dest.Length))
-							throw new IOException("Error queuing request");
+				//if(ENABLE_ASYNC_READS)
+				//{
+				//	var request = new UsbRequest();
+				//	try
+				//	{
+				//		request.Initialize(mConnection, mReadEndpoint);
+				//		ByteBuffer buf = ByteBuffer.Wrap(dest);
+				//		if (!request.Queue(buf, dest.Length))
+				//			throw new IOException("Error queuing request");
 
-						UsbRequest response = mConnection.RequestWait();
-						if (response == null)
-							throw new IOException("Null response");
+				//		UsbRequest response = mConnection.RequestWait();
+				//		if (response == null)
+				//			throw new IOException("Null response");
 
-						int nread = buf.Position();
-						if (nread > 0)
-							return nread;
+				//		int nread = buf.Position();
+				//		if (nread > 0)
+				//			return nread;
 
-						return 0;
-					}
-					finally
-					{
-						request.Close();
-					}
-				}
+				//		return 0;
+				//	}
+				//	finally
+				//	{
+				//		request.Close();
+				//	}
+				//}
 
 				int numBytesRead;
 				lock(mReadBufferLock)

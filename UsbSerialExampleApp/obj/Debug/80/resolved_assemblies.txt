@@ -1,4 +1,4 @@
-C:\Users\dashk\OneDrive\Desktop\UsbSerialForAndroid-master\UsbSerialExampleApp\obj\Debug\80\android\assets\UsbSerialExampleApp.dll
+C:\Users\dashk\OneDrive\Desktop\UsbSerialForAndroid-master\UsbSerialExampleApp\obj\Debug\80\android\assets\UsbSerial.dll
 C:\Users\dashk\OneDrive\Desktop\UsbSerialForAndroid-master\UsbSerialExampleApp\obj\Debug\80\android\assets\Android.UsbSerial.dll
 C:\Users\dashk\OneDrive\Desktop\UsbSerialForAndroid-master\UsbSerialExampleApp\obj\Debug\80\android\assets\Java.Interop.dll
 C:\Users\dashk\OneDrive\Desktop\UsbSerialForAndroid-master\UsbSerialExampleApp\obj\Debug\80\android\assets\Mono.Android.dll
