@@ -41,7 +41,7 @@ using Hoho.Android.UsbSerial.Util;
 
 namespace UsbSerial
 {
-    [Activity(Label = "UsbSerialExampleApp", MainLauncher = true, Icon = "@drawable/icon")]
+    [Activity(Label = "UsbSerial", MainLauncher = true, Icon = "@drawable/icon1")]
     [IntentFilter(new[] { UsbManager.ActionUsbDeviceAttached })]
     [MetaData(UsbManager.ActionUsbDeviceAttached, Resource = "@xml/device_filter")]
     public class MainActivity : Activity

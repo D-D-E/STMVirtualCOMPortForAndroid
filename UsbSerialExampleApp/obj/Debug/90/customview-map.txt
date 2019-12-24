@@ -1,0 +1,12 @@
+Button;obj\Debug\90\res\layout\serial_console.xml
+CheckBox;obj\Debug\90\res\layout\serial_console.xml
+com.scichart.charting.visuals.SciPieChartSurface;obj\Debug\90\res\layout\serial_console.xml
+OxyPlot.Xamarin.Android.PlotView;obj\Debug\90\res\layout\serial_console.xml
+RelativeLayout;obj\Debug\90\res\layout\serial_console.xml
+resources;C:\Users\dashk\OneDrive\Desktop\UsbSerialForAndroid-master\UsbSerialExampleApp\obj\Debug\90\lp\0\jl\res\values\strings.xml
+resources;obj\Debug\90\res\values\strings.xml
+ScrollView;obj\Debug\90\res\layout\serial_console.xml
+string;C:\Users\dashk\OneDrive\Desktop\UsbSerialForAndroid-master\UsbSerialExampleApp\obj\Debug\90\lp\0\jl\res\values\strings.xml
+string;obj\Debug\90\res\values\strings.xml
+TextView;obj\Debug\90\res\layout\serial_console.xml
+View;obj\Debug\90\res\layout\serial_console.xml

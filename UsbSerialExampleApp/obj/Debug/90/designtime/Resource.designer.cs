@@ -9,9 +9,9 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Android.Runtime.ResourceDesignerAttribute("UsbSerialExampleApp.Resource", IsApplication=true)]
+[assembly: global::Android.Runtime.ResourceDesignerAttribute("UsbSerial.Resource", IsApplication=true)]
 
-namespace UsbSerialExampleApp
+namespace UsbSerial
 {
 	
 	
@@ -26,12 +26,150 @@ namespace UsbSerialExampleApp
 		
 		public static void UpdateIdValues()
 		{
-			global::Hoho.Android.UsbSerial.Resource.String.ApplicationName = global::UsbSerialExampleApp.Resource.String.ApplicationName;
-			global::Hoho.Android.UsbSerial.Resource.String.Hello = global::UsbSerialExampleApp.Resource.String.Hello;
+			global::Hoho.Android.UsbSerial.Resource.String.ApplicationName = global::UsbSerial.Resource.String.ApplicationName;
+			global::Hoho.Android.UsbSerial.Resource.String.Hello = global::UsbSerial.Resource.String.Hello;
 		}
 		
 		public partial class Attribute
 		{
+			
+			// aapt resource value: 0x7F040001
+			public const int axisBandsColor = 2130968577;
+			
+			// aapt resource value: 0x7F040002
+			public const int axisTooltipBackground = 2130968578;
+			
+			// aapt resource value: 0x7F040003
+			public const int axisTooltipTextColor = 2130968579;
+			
+			// aapt resource value: 0x7F040004
+			public const int axisTooltipTextSize = 2130968580;
+			
+			// aapt resource value: 0x7F040005
+			public const int bandFillDownColor = 2130968581;
+			
+			// aapt resource value: 0x7F040006
+			public const int bandFillUpColor = 2130968582;
+			
+			// aapt resource value: 0x7F040007
+			public const int bandStrokeDownColor = 2130968583;
+			
+			// aapt resource value: 0x7F040008
+			public const int bandStrokeUpColor = 2130968584;
+			
+			// aapt resource value: 0x7F040009
+			public const int candleStickFillDownColor = 2130968585;
+			
+			// aapt resource value: 0x7F04000A
+			public const int candleStickFillUpColor = 2130968586;
+			
+			// aapt resource value: 0x7F04000B
+			public const int candleStickStrokeDownColor = 2130968587;
+			
+			// aapt resource value: 0x7F04000C
+			public const int candleStickStrokeUpColor = 2130968588;
+			
+			// aapt resource value: 0x7F04000D
+			public const int columnFillColor = 2130968589;
+			
+			// aapt resource value: 0x7F04000E
+			public const int columnLineColor = 2130968590;
+			
+			// aapt resource value: 0x7F04000F
+			public const int cursorLineColor = 2130968591;
+			
+			// aapt resource value: 0x7F040010
+			public const int defaultAnnotationGripsBackgroundColor = 2130968592;
+			
+			// aapt resource value: 0x7F040011
+			public const int defaultAnnotationGripsStrokeColor = 2130968593;
+			
+			// aapt resource value: 0x7F040012
+			public const int defaultPieSegmentTitleTextColor = 2130968594;
+			
+			// aapt resource value: 0x7F040013
+			public const int defaultPieSegmentTitleTextSize = 2130968595;
+			
+			// aapt resource value: 0x7F040014
+			public const int defaultTextColor = 2130968596;
+			
+			// aapt resource value: 0x7F040015
+			public const int defaultTextSize = 2130968597;
+			
+			// aapt resource value: 0x7F040016
+			public const int labelBackground = 2130968598;
+			
+			// aapt resource value: 0x7F040017
+			public const int legendBackground = 2130968599;
+			
+			// aapt resource value: 0x7F040018
+			public const int lineAnnotationLineColor = 2130968600;
+			
+			// aapt resource value: 0x7F040019
+			public const int lineAnnotationLineThickness = 2130968601;
+			
+			// aapt resource value: 0x7F04001A
+			public const int lineSeriesColor = 2130968602;
+			
+			// aapt resource value: 0x7F04001B
+			public const int majorGridLinesColor = 2130968603;
+			
+			// aapt resource value: 0x7F04001C
+			public const int majorTickLinesLength = 2130968604;
+			
+			// aapt resource value: 0x7F04001D
+			public const int minorGridLinesColor = 2130968605;
+			
+			// aapt resource value: 0x7F04001E
+			public const int minorTickLinesLength = 2130968606;
+			
+			// aapt resource value: 0x7F04001F
+			public const int mountainAreaColor = 2130968607;
+			
+			// aapt resource value: 0x7F040020
+			public const int mountainLineColor = 2130968608;
+			
+			// aapt resource value: 0x7F040021
+			public const int renderableSeriesAreaBorderColor = 2130968609;
+			
+			// aapt resource value: 0x7F040022
+			public const int renderableSeriesAreaFillColor = 2130968610;
+			
+			// aapt resource value: 0x7F040023
+			public const int renderableSeriesAreaStrokeThickness = 2130968611;
+			
+			// aapt resource value: 0x7F040024
+			public const int rolloverLineColor = 2130968612;
+			
+			// aapt resource value: 0x7F040025
+			public const int rubberBandFillColor = 2130968613;
+			
+			// aapt resource value: 0x7F040026
+			public const int rubberBandStrokeColor = 2130968614;
+			
+			// aapt resource value: 0x7F040027
+			public const int sciChartBackground = 2130968615;
+			
+			// aapt resource value: 0x7F040028
+			public const int textAnnotationBackgroundColor = 2130968616;
+			
+			// aapt resource value: 0x7F040029
+			public const int textAnnotationTextColor = 2130968617;
+			
+			// aapt resource value: 0x7F04002A
+			public const int textAnnotationTextSize = 2130968618;
+			
+			// aapt resource value: 0x7F04002B
+			public const int tickTextColor = 2130968619;
+			
+			// aapt resource value: 0x7F04002C
+			public const int tickTextSize = 2130968620;
+			
+			// aapt resource value: 0x7F04002D
+			public const int tickTextTypeFace = 2130968621;
+			
+			// aapt resource value: 0x7F04002E
+			public const int titleTextSize = 2130968622;
 			
 			static Attribute()
 			{
@@ -43,11 +181,126 @@ namespace UsbSerialExampleApp
 			}
 		}
 		
+		public partial class Dimension
+		{
+			
+			// aapt resource value: 0x7F080001
+			public const int legendItemCheckBoxNegativeMargin = 2131230721;
+			
+			// aapt resource value: 0x7F080002
+			public const int legendItemMargin = 2131230722;
+			
+			// aapt resource value: 0x7F080003
+			public const int legendItemPointMarkerMargin = 2131230723;
+			
+			// aapt resource value: 0x7F080004
+			public const int legendItemPointMarkerWidth = 2131230724;
+			
+			// aapt resource value: 0x7F080005
+			public const int legendItemSeriesNameLeftMargin = 2131230725;
+			
+			// aapt resource value: 0x7F080006
+			public const int legendItemSeriesNameRightMargin = 2131230726;
+			
+			// aapt resource value: 0x7F080007
+			public const int legendModifierPadding = 2131230727;
+			
+			// aapt resource value: 0x7F080008
+			public const int legendTextSize = 2131230728;
+			
+			static Dimension()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Dimension()
+			{
+			}
+		}
+		
 		public partial class Drawable
 		{
 			
 			// aapt resource value: 0x7F010002
 			public const int Icon = 2130771970;
+			
+			// aapt resource value: 0x7F010003
+			public const int icon1 = 2130771971;
+			
+			// aapt resource value: 0x7F090001
+			public const int sci_chart_black_steel_background = 2131296257;
+			
+			// aapt resource value: 0x7F090002
+			public const int sci_chart_black_steel_label_background = 2131296258;
+			
+			// aapt resource value: 0x7F090003
+			public const int sci_chart_black_steel_legend_background = 2131296259;
+			
+			// aapt resource value: 0x7F090004
+			public const int sci_chart_bright_spark_background = 2131296260;
+			
+			// aapt resource value: 0x7F090005
+			public const int sci_chart_bright_spark_label_background = 2131296261;
+			
+			// aapt resource value: 0x7F090006
+			public const int sci_chart_bright_spark_legend_background = 2131296262;
+			
+			// aapt resource value: 0x7F090007
+			public const int sci_chart_chrome_background = 2131296263;
+			
+			// aapt resource value: 0x7F090008
+			public const int sci_chart_chrome_label_background = 2131296264;
+			
+			// aapt resource value: 0x7F090009
+			public const int sci_chart_chrome_legend_background = 2131296265;
+			
+			// aapt resource value: 0x7F09000A
+			public const int sci_chart_electric_background = 2131296266;
+			
+			// aapt resource value: 0x7F09000B
+			public const int sci_chart_electric_label_background = 2131296267;
+			
+			// aapt resource value: 0x7F09000C
+			public const int sci_chart_electric_legend_background = 2131296268;
+			
+			// aapt resource value: 0x7F09000D
+			public const int sci_chart_expression_dark_background = 2131296269;
+			
+			// aapt resource value: 0x7F09000E
+			public const int sci_chart_expression_dark_label_background = 2131296270;
+			
+			// aapt resource value: 0x7F09000F
+			public const int sci_chart_expression_dark_legend_background = 2131296271;
+			
+			// aapt resource value: 0x7F090010
+			public const int sci_chart_expression_light_background = 2131296272;
+			
+			// aapt resource value: 0x7F090011
+			public const int sci_chart_expression_light_label_background = 2131296273;
+			
+			// aapt resource value: 0x7F090012
+			public const int sci_chart_expression_light_legend_background = 2131296274;
+			
+			// aapt resource value: 0x7F090013
+			public const int sci_chart_oscilloscope_background = 2131296275;
+			
+			// aapt resource value: 0x7F090014
+			public const int sci_chart_oscilloscope_label_background = 2131296276;
+			
+			// aapt resource value: 0x7F090015
+			public const int sci_chart_oscilloscope_legend_background = 2131296277;
+			
+			// aapt resource value: 0x7F090016
+			public const int sci_chart_tooltip_background = 2131296278;
+			
+			// aapt resource value: 0x7F090017
+			public const int sci_chart_v4_dark_background = 2131296279;
+			
+			// aapt resource value: 0x7F090018
+			public const int sci_chart_v4_dark_label_background = 2131296280;
+			
+			// aapt resource value: 0x7F090019
+			public const int sci_chart_v4_dark_legend_background = 2131296281;
 			
 			static Drawable()
 			{
@@ -62,32 +315,77 @@ namespace UsbSerialExampleApp
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7F020010
-			public const int consoleText = 2130837520;
+			// aapt resource value: 0x7F0C0001
+			public const int adornerLayer = 2131492865;
 			
-			// aapt resource value: 0x7F020009
-			public const int demoScroller = 2130837513;
+			// aapt resource value: 0x7F0C0002
+			public const int annotationSurface = 2131492866;
 			
-			// aapt resource value: 0x7F020006
-			public const int demoTitle = 2130837510;
+			// aapt resource value: 0x7F0C0003
+			public const int axisModifierSurfaceArea = 2131492867;
 			
-			// aapt resource value: 0x7F020005
-			public const int deviceList = 2130837509;
+			// aapt resource value: 0x7F0C0004
+			public const int chartModifierSurface = 2131492868;
 			
-			// aapt resource value: 0x7F020003
-			public const int progressBar = 2130837507;
+			// aapt resource value: 0x7F030011
+			public const int checkBox1 = 2130903057;
 			
-			// aapt resource value: 0x7F020002
-			public const int progressBarTitle = 2130837506;
+			// aapt resource value: 0x7F0C0005
+			public const int colorMapView = 2131492869;
 			
-			// aapt resource value: 0x7F020004
-			public const int separator = 2130837508;
+			// aapt resource value: 0x7F030009
+			public const int consoleText = 2130903049;
 			
-			// aapt resource value: 0x7F020007
-			public const int sleepButton = 2130837511;
+			// aapt resource value: 0x7F030008
+			public const int demoScroller = 2130903048;
 			
-			// aapt resource value: 0x7F020008
-			public const int wakeupButton = 2130837512;
+			// aapt resource value: 0x7F030005
+			public const int deviceList = 2130903045;
+			
+			// aapt resource value: 0x7F0C0006
+			public const int isVisible = 2131492870;
+			
+			// aapt resource value: 0x7F0C0007
+			public const int maximumTextView = 2131492871;
+			
+			// aapt resource value: 0x7F0C0008
+			public const int middleTextView = 2131492872;
+			
+			// aapt resource value: 0x7F0C0009
+			public const int minimumTextView = 2131492873;
+			
+			// aapt resource value: 0x7F0C000A
+			public const int name = 2131492874;
+			
+			// aapt resource value: 0x7F030010
+			public const int plotView1 = 2130903056;
+			
+			// aapt resource value: 0x7F0C000B
+			public const int pointMarker = 2131492875;
+			
+			// aapt resource value: 0x7F030003
+			public const int progressBar = 2130903043;
+			
+			// aapt resource value: 0x7F030002
+			public const int progressBarTitle = 2130903042;
+			
+			// aapt resource value: 0x7F0C000C
+			public const int renderableSeriesArea = 2131492876;
+			
+			// aapt resource value: 0x7F0C000D
+			public const int rotateLayout = 2131492877;
+			
+			// aapt resource value: 0x7F030004
+			public const int separator = 2130903044;
+			
+			// aapt resource value: 0x7F030006
+			public const int startButton = 2130903046;
+			
+			// aapt resource value: 0x7F030007
+			public const int stopButton = 2130903047;
+			
+			// aapt resource value: 0x7F0C000E
+			public const int text = 2131492878;
 			
 			static Id()
 			{
@@ -102,11 +400,50 @@ namespace UsbSerialExampleApp
 		public partial class Layout
 		{
 			
-			// aapt resource value: 0x7F030002
-			public const int Main = 2130903042;
+			// aapt resource value: 0x7F0F0001
+			public const int axis_marker_annotation_layout = 2131689473;
 			
-			// aapt resource value: 0x7F030003
-			public const int serial_console = 2130903043;
+			// aapt resource value: 0x7F0F0002
+			public const int horizontal_legend_placeholder_layout = 2131689474;
+			
+			// aapt resource value: 0x7F020002
+			public const int layout1 = 2130837506;
+			
+			// aapt resource value: 0x7F0F0003
+			public const int legend_item = 2131689475;
+			
+			// aapt resource value: 0x7F020003
+			public const int Main = 2130837507;
+			
+			// aapt resource value: 0x7F0F0004
+			public const int scichart_default_cursor_modifier_tooltip_container = 2131689476;
+			
+			// aapt resource value: 0x7F0F0005
+			public const int scichart_default_tooltip_modifier_tooltip_container = 2131689477;
+			
+			// aapt resource value: 0x7F0F0006
+			public const int scichart_heatmap_colour_map_horizontal_layout = 2131689478;
+			
+			// aapt resource value: 0x7F0F0007
+			public const int scichart_heatmap_colour_map_vertical_layout = 2131689479;
+			
+			// aapt resource value: 0x7F0F0008
+			public const int scihart_surface_layout = 2131689480;
+			
+			// aapt resource value: 0x7F020004
+			public const int serial_console = 2130837508;
+			
+			// aapt resource value: 0x7F0F0009
+			public const int text_annotation_layout = 2131689481;
+			
+			// aapt resource value: 0x7F0F000A
+			public const int vertical_legend_placeholder_layout = 2131689482;
+			
+			// aapt resource value: 0x7F020005
+			public const int View1 = 2130837509;
+			
+			// aapt resource value: 0x7F020006
+			public const int View1.xaml = 2130837510;
 			
 			static Layout()
 			{
@@ -149,11 +486,265 @@ namespace UsbSerialExampleApp
 			}
 		}
 		
+		public partial class Style
+		{
+			
+			// aapt resource value: 0x7F160001
+			public const int SciChart_BaseStyle = 2132148225;
+			
+			// aapt resource value: 0x7F160002
+			public const int SciChart_BlackSteel = 2132148226;
+			
+			// aapt resource value: 0x7F160003
+			public const int SciChart_Bright_Spark = 2132148227;
+			
+			// aapt resource value: 0x7F160004
+			public const int SciChart_ChromeStyle = 2132148228;
+			
+			// aapt resource value: 0x7F160005
+			public const int SciChart_ElectricStyle = 2132148229;
+			
+			// aapt resource value: 0x7F160006
+			public const int SciChart_ExpressionDarkStyle = 2132148230;
+			
+			// aapt resource value: 0x7F160007
+			public const int SciChart_ExpressionLightStyle = 2132148231;
+			
+			// aapt resource value: 0x7F160008
+			public const int SciChart_OscilloscopeStyle = 2132148232;
+			
+			// aapt resource value: 0x7F160009
+			public const int SciChart_SciChartv4DarkStyle = 2132148233;
+			
+			// aapt resource value: 0x7F050002
+			public const int Theme_Custom = 2131034114;
+			
+			static Style()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Style()
+			{
+			}
+		}
+		
+		public partial class Styleable
+		{
+			
+			public static int[] SciChartHeatmapColourMap = new int[] {
+					16842948};
+			
+			// aapt resource value: 0x7F070003
+			public const int SciChartHeatmapColourMap_android_orientation = 2131165187;
+			
+			public static int[] SciChartLegend = new int[] {
+					16842948};
+			
+			// aapt resource value: 0x7F070005
+			public const int SciChartLegend_android_orientation = 2131165189;
+			
+			public static int[] ThemeProvider = new int[] {
+					2130968577,
+					2130968578,
+					2130968579,
+					2130968580,
+					2130968581,
+					2130968582,
+					2130968583,
+					2130968584,
+					2130968585,
+					2130968586,
+					2130968587,
+					2130968588,
+					2130968589,
+					2130968590,
+					2130968591,
+					2130968592,
+					2130968593,
+					2130968594,
+					2130968595,
+					2130968596,
+					2130968597,
+					2130968598,
+					2130968599,
+					2130968600,
+					2130968601,
+					2130968602,
+					2130968603,
+					2130968604,
+					2130968605,
+					2130968606,
+					2130968607,
+					2130968608,
+					2130968609,
+					2130968610,
+					2130968611,
+					2130968612,
+					2130968613,
+					2130968614,
+					2130968615,
+					2130968616,
+					2130968617,
+					2130968618,
+					2130968619,
+					2130968620,
+					2130968621,
+					2130968622};
+			
+			// aapt resource value: 0x7F070007
+			public const int ThemeProvider_axisBandsColor = 2131165191;
+			
+			// aapt resource value: 0x1
+			public const int ThemeProvider_axisTooltipBackground = 1;
+			
+			// aapt resource value: 0x2
+			public const int ThemeProvider_axisTooltipTextColor = 2;
+			
+			// aapt resource value: 0x3
+			public const int ThemeProvider_axisTooltipTextSize = 3;
+			
+			// aapt resource value: 0x4
+			public const int ThemeProvider_bandFillDownColor = 4;
+			
+			// aapt resource value: 0x5
+			public const int ThemeProvider_bandFillUpColor = 5;
+			
+			// aapt resource value: 0x6
+			public const int ThemeProvider_bandStrokeDownColor = 6;
+			
+			// aapt resource value: 0x7
+			public const int ThemeProvider_bandStrokeUpColor = 7;
+			
+			// aapt resource value: 0x8
+			public const int ThemeProvider_candleStickFillDownColor = 8;
+			
+			// aapt resource value: 0x9
+			public const int ThemeProvider_candleStickFillUpColor = 9;
+			
+			// aapt resource value: 0x10
+			public const int ThemeProvider_candleStickStrokeDownColor = 16;
+			
+			// aapt resource value: 0x11
+			public const int ThemeProvider_candleStickStrokeUpColor = 17;
+			
+			// aapt resource value: 0x12
+			public const int ThemeProvider_columnFillColor = 18;
+			
+			// aapt resource value: 0x13
+			public const int ThemeProvider_columnLineColor = 19;
+			
+			// aapt resource value: 0x14
+			public const int ThemeProvider_cursorLineColor = 20;
+			
+			// aapt resource value: 0x15
+			public const int ThemeProvider_defaultAnnotationGripsBackgroundColor = 21;
+			
+			// aapt resource value: 0x16
+			public const int ThemeProvider_defaultAnnotationGripsStrokeColor = 22;
+			
+			// aapt resource value: 0x17
+			public const int ThemeProvider_defaultPieSegmentTitleTextColor = 23;
+			
+			// aapt resource value: 0x18
+			public const int ThemeProvider_defaultPieSegmentTitleTextSize = 24;
+			
+			// aapt resource value: 0x19
+			public const int ThemeProvider_defaultTextColor = 25;
+			
+			// aapt resource value: 0x20
+			public const int ThemeProvider_defaultTextSize = 32;
+			
+			// aapt resource value: 0x21
+			public const int ThemeProvider_labelBackground = 33;
+			
+			// aapt resource value: 0x22
+			public const int ThemeProvider_legendBackground = 34;
+			
+			// aapt resource value: 0x23
+			public const int ThemeProvider_lineAnnotationLineColor = 35;
+			
+			// aapt resource value: 0x24
+			public const int ThemeProvider_lineAnnotationLineThickness = 36;
+			
+			// aapt resource value: 0x25
+			public const int ThemeProvider_lineSeriesColor = 37;
+			
+			// aapt resource value: 0x26
+			public const int ThemeProvider_majorGridLinesColor = 38;
+			
+			// aapt resource value: 0x27
+			public const int ThemeProvider_majorTickLinesLength = 39;
+			
+			// aapt resource value: 0x28
+			public const int ThemeProvider_minorGridLinesColor = 40;
+			
+			// aapt resource value: 0x29
+			public const int ThemeProvider_minorTickLinesLength = 41;
+			
+			// aapt resource value: 0x30
+			public const int ThemeProvider_mountainAreaColor = 48;
+			
+			// aapt resource value: 0x31
+			public const int ThemeProvider_mountainLineColor = 49;
+			
+			// aapt resource value: 0x32
+			public const int ThemeProvider_renderableSeriesAreaBorderColor = 50;
+			
+			// aapt resource value: 0x33
+			public const int ThemeProvider_renderableSeriesAreaFillColor = 51;
+			
+			// aapt resource value: 0x34
+			public const int ThemeProvider_renderableSeriesAreaStrokeThickness = 52;
+			
+			// aapt resource value: 0x35
+			public const int ThemeProvider_rolloverLineColor = 53;
+			
+			// aapt resource value: 0x36
+			public const int ThemeProvider_rubberBandFillColor = 54;
+			
+			// aapt resource value: 0x37
+			public const int ThemeProvider_rubberBandStrokeColor = 55;
+			
+			// aapt resource value: 0x38
+			public const int ThemeProvider_sciChartBackground = 56;
+			
+			// aapt resource value: 0x39
+			public const int ThemeProvider_textAnnotationBackgroundColor = 57;
+			
+			// aapt resource value: 0x40
+			public const int ThemeProvider_textAnnotationTextColor = 64;
+			
+			// aapt resource value: 0x41
+			public const int ThemeProvider_textAnnotationTextSize = 65;
+			
+			// aapt resource value: 0x42
+			public const int ThemeProvider_tickTextColor = 66;
+			
+			// aapt resource value: 0x43
+			public const int ThemeProvider_tickTextSize = 67;
+			
+			// aapt resource value: 0x44
+			public const int ThemeProvider_tickTextTypeFace = 68;
+			
+			// aapt resource value: 0x45
+			public const int ThemeProvider_titleTextSize = 69;
+			
+			static Styleable()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Styleable()
+			{
+			}
+		}
+		
 		public partial class Xml
 		{
 			
-			// aapt resource value: 0x7F050002
-			public const int device_filter = 2131034114;
+			// aapt resource value: 0x7F060002
+			public const int device_filter = 2131099650;
 			
 			static Xml()
 			{

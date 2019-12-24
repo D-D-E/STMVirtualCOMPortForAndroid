@@ -25,6 +25,7 @@ using System.Collections.Generic;
 using System.Text.RegularExpressions;
 using System.Linq;
 using System.Text;
+using System.Timers;
 
 using Android.App;
 using Android.Content;
@@ -36,10 +37,16 @@ using Android.Util;
 using Android.Views;
 using Android.Widget;
 
+using OxyPlot.Xamarin.Android;
+using OxyPlot;
+using OxyPlot.Axes;
+using OxyPlot.Series;
+
 using Hoho.Android.UsbSerial.Driver;
 using Hoho.Android.UsbSerial.Extensions;
 using Hoho.Android.UsbSerial.Util;
-
+using SciChart.Charting.Model;
+using SciChart.Charting.Modifiers;
 
 namespace UsbSerial
 {
@@ -51,17 +58,30 @@ namespace UsbSerial
         public const string EXTRA_TAG = "PortInfo";
         const int READ_WAIT_MILLIS = 200;
         const int WRITE_WAIT_MILLIS = 200;
+        int startTime;
 
         UsbSerialPort port;
 
         UsbManager usbManager;
-        //TextView titleTextView;
         TextView dumpTextView;
         ScrollView scrollView;
-        OxyPlot.Xamarin.Android.PlotView plotView;
+        PlotView plotView;
         Button startButton;
         Button stopButton;
+        CheckBox devBox;
 
+        struct rx_data
+        {
+            public int[] pin_status;
+            public int time_tick;
+        }
+        rx_data gNewPoint;
+        rx_data gOldPoint;
+        List<LineSeries> series = new List<LineSeries>(8);
+        
+        PlotModel plotModel = new PlotModel { Title = "Usb Serial" };
+
+        Timer plotTimer = new Timer(1);
         SerialInputOutputManager serialIoManager;
 
         protected override void OnCreate(Bundle savedInstanceState)
@@ -76,23 +96,87 @@ namespace UsbSerial
             //titleTextView = FindViewById<TextView>(Resource.Id.demoTitle);
             dumpTextView = FindViewById<TextView>(Resource.Id.consoleText);
             scrollView = FindViewById<ScrollView>(Resource.Id.demoScroller);
-            plotView = FindViewById<OxyPlot.Xamarin.Android.PlotView>(Resource.Id.plotView1);
+            devBox = FindViewById<CheckBox>(Resource.Id.checkBox1);
+
+            gNewPoint.pin_status = new int[8]{ 0, 0, 0, 0, 0, 0, 0, 0};
+            gNewPoint.time_tick = 0;
+            plotView = FindViewById<PlotView>(Resource.Id.plotView1);
+            plotView.Model = CreatePlotModel();
 
             startButton = FindViewById<Button>(Resource.Id.startButton);
+            startButton.SetBackgroundColor(Android.Graphics.Color.Green);
             stopButton = FindViewById<Button>(Resource.Id.stopButton);
+            stopButton.SetBackgroundColor(Android.Graphics.Color.Gray);
+
+            dumpTextView.Visibility = Android.Views.ViewStates.Invisible;
+
+            plotTimer.Elapsed += plotTimerEvent;
+            plotTimer.AutoReset = true;
 
             byte[] stt = new byte[] { 0x73, 0x74, 0x61, 0x72, 0x74 };
             byte[] stp = new byte[] { 0x73, 0x74, 0x6f, 0x70 };
 
             startButton.Click += delegate
             {
+                startButton.SetBackgroundColor(Android.Graphics.Color.Red);
+                startButton.Enabled = false;
                 WriteData(stt);
+
+                //plotTimer.Enabled = true;
             };
 
             stopButton.Click += delegate
             {
+                startButton.SetBackgroundColor(Android.Graphics.Color.Green);
+                startButton.Enabled = true;
                 WriteData(stp);
+
+                plotTimer.Stop();
+                //plotTimer.Dispose();
             };
+
+            devBox.CheckedChange += delegate
+            {
+                if (devBox.Checked)
+                {
+                    dumpTextView.Visibility = Android.Views.ViewStates.Visible;
+                }
+                else dumpTextView.Visibility = Android.Views.ViewStates.Invisible;
+            };
+
+            for (int i = 0; i < 8; i++)
+            {
+                series.Add(new LineSeries()
+                {
+                    MarkerType = MarkerType.Circle,
+                    MarkerSize = 4,
+                    MarkerStroke = OxyColors.White,
+                    Smooth = false
+                });
+            }
+        }
+
+        private void plotTimerEvent(Object source, ElapsedEventArgs e)
+        {
+            //dumpTextView.Append(e.SignalTime + " ");
+        } 
+
+        private PlotModel CreatePlotModel()
+        {
+            {
+                try
+                {
+                    foreach (var ser in series)
+                    {
+                        plotModel.Series.Add(ser);
+                    }
+                }
+                catch (Exception e)
+                {
+                    dumpTextView.Append(e.ToString());
+                }
+            }
+            return plotModel;
         }
 
         protected override void OnPause()
@@ -182,6 +266,38 @@ namespace UsbSerial
             }
         }
 
+        bool firstData = true;
+        void DrawPlot(string data, int time)
+        {
+            if (firstData)
+            {
+                startTime = time;
+                firstData = false;
+            }
+            gOldPoint.pin_status = gNewPoint.pin_status;
+            gOldPoint.time_tick = gNewPoint.time_tick;
+
+            int[] port = new int[8];
+            for (int i = 0; i < 8; i++)
+            {
+                port[i] = (int)Char.GetNumericValue(data[i]);
+            }
+            gNewPoint.pin_status = port;
+            gNewPoint.time_tick = time;
+
+            plotView.Model = CreatePlotModel();
+            for (int s = 0; s < 8; s++)
+            {
+                series[s].Points.Add(new DataPoint(gNewPoint.time_tick - startTime, gOldPoint.pin_status[s]));
+                series[s].Points.Add(new DataPoint(time - startTime, port[s]));
+            }
+            dumpTextView.Append(port + ":" + time + "\r\n");
+
+            plotView.Model = CreatePlotModel();
+            plotView.InvalidatePlot(true);
+            plotModel.InvalidatePlot(true);
+        }
+
         void ConvertReceivedData(byte[] data)
         {
             var temp_port_value = "";
@@ -194,27 +310,19 @@ namespace UsbSerial
 
             for (int i = 5; i < 11; i++)
                 temp_time += Convert.ToChar(data[i]);
+            temp_time = temp_time.PadLeft(6, '0');
             Int32.TryParse(temp_time, out time);
 
             string binary = Convert.ToString(port, 2);
-            if (binary.Length < 8)
-            {
-                binary += binary.PadLeft(8 - binary.Length, '0');
-            }
-            //binary.Reverse();
+            binary = binary.PadLeft(8, '0');
 
-            var message = binary + " " + time + "\r\n";
-            dumpTextView.Append(message);
+            var message = binary + ":" + time + "\r\n";
+
+            DrawPlot(binary, time);
         }
 
         void UpdateReceivedData(byte[] data)
         {
-            //var message = data.Length + " ";
-            //for (int i = 0; i < data.Length; i++)
-            //    message += Convert.ToChar(data[i]);
-            //message += "\r\n";
-
-            //dumpTextView.Append(message);
             if(data.Length == 13 && data[4] == ':')
                 ConvertReceivedData(data);
             scrollView.SmoothScrollTo(0, dumpTextView.Bottom);

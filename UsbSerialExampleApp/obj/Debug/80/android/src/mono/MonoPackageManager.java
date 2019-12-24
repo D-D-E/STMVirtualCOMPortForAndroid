@@ -114,6 +114,10 @@ class MonoPackageManager_Resources {
 		"Android.UsbSerial.dll",
 		"OxyPlot.dll",
 		"OxyPlot.Xamarin.Android.dll",
+		"SciChart.Android.Charting.dll",
+		"SciChart.Android.Core.dll",
+		"SciChart.Android.Data.dll",
+		"SciChart.Android.Drawing.dll",
 	};
 	public static final String[] Dependencies = new String[]{
 	};

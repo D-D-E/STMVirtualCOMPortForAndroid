@@ -1,4 +1,8 @@
 Android.UsbSerial
-System.Runtime
 OxyPlot
 OxyPlot.Xamarin.Android
+SciChart.Android.Charting
+SciChart.Android.Core
+SciChart.Android.Data
+SciChart.Android.Drawing
+System.Runtime

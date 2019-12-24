@@ -9,40 +9,1345 @@ package usbserial.usbserial;
 
 public final class R {
     public static final class attr {
+        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int axisBandsColor=0x7f01000d;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int axisTooltipBackground=0x7f010016;
+        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int axisTooltipTextColor=0x7f010014;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int axisTooltipTextSize=0x7f010015;
+        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int bandFillDownColor=0x7f010024;
+        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int bandFillUpColor=0x7f010023;
+        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int bandStrokeDownColor=0x7f010022;
+        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int bandStrokeUpColor=0x7f010021;
+        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int candleStickFillDownColor=0x7f010020;
+        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int candleStickFillUpColor=0x7f01001f;
+        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int candleStickStrokeDownColor=0x7f01001e;
+        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int candleStickStrokeUpColor=0x7f01001d;
+        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int columnFillColor=0x7f01001c;
+        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int columnLineColor=0x7f01001b;
+        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int cursorLineColor=0x7f010011;
+        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int defaultAnnotationGripsBackgroundColor=0x7f01002b;
+        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int defaultAnnotationGripsStrokeColor=0x7f01002a;
+        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int defaultPieSegmentTitleTextColor=0x7f01002d;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int defaultPieSegmentTitleTextSize=0x7f01002c;
+        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int defaultTextColor=0x7f010006;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int defaultTextSize=0x7f010005;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int labelBackground=0x7f010017;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int legendBackground=0x7f010004;
+        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int lineAnnotationLineColor=0x7f010025;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int lineAnnotationLineThickness=0x7f010026;
+        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int lineSeriesColor=0x7f01001a;
+        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int majorGridLinesColor=0x7f01000b;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int majorTickLinesLength=0x7f01000f;
+        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int minorGridLinesColor=0x7f01000c;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int minorTickLinesLength=0x7f01000e;
+        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int mountainAreaColor=0x7f010019;
+        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int mountainLineColor=0x7f010018;
+        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int renderableSeriesAreaBorderColor=0x7f010002;
+        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int renderableSeriesAreaFillColor=0x7f010001;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int renderableSeriesAreaStrokeThickness=0x7f010003;
+        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int rolloverLineColor=0x7f010010;
+        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int rubberBandFillColor=0x7f010013;
+        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int rubberBandStrokeColor=0x7f010012;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int sciChartBackground=0x7f010000;
+        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int textAnnotationBackgroundColor=0x7f010028;
+        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int textAnnotationTextColor=0x7f010027;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int textAnnotationTextSize=0x7f010029;
+        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int tickTextColor=0x7f01000a;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int tickTextSize=0x7f010007;
+        /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int tickTextTypeFace=0x7f010009;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int titleTextSize=0x7f010008;
+    }
+    public static final class dimen {
+        public static final int legendItemCheckBoxNegativeMargin=0x7f050000;
+        public static final int legendItemMargin=0x7f050001;
+        public static final int legendItemPointMarkerMargin=0x7f050002;
+        public static final int legendItemPointMarkerWidth=0x7f050003;
+        public static final int legendItemSeriesNameLeftMargin=0x7f050004;
+        public static final int legendItemSeriesNameRightMargin=0x7f050005;
+        public static final int legendModifierPadding=0x7f050006;
+        public static final int legendTextSize=0x7f050007;
     }
     public static final class drawable {
         public static final int icon=0x7f020000;
         public static final int icon1=0x7f020001;
+        public static final int sci_chart_black_steel_background=0x7f020002;
+        public static final int sci_chart_black_steel_label_background=0x7f020003;
+        public static final int sci_chart_black_steel_legend_background=0x7f020004;
+        public static final int sci_chart_bright_spark_background=0x7f020005;
+        public static final int sci_chart_bright_spark_label_background=0x7f020006;
+        public static final int sci_chart_bright_spark_legend_background=0x7f020007;
+        public static final int sci_chart_chrome_background=0x7f020008;
+        public static final int sci_chart_chrome_label_background=0x7f020009;
+        public static final int sci_chart_chrome_legend_background=0x7f02000a;
+        public static final int sci_chart_electric_background=0x7f02000b;
+        public static final int sci_chart_electric_label_background=0x7f02000c;
+        public static final int sci_chart_electric_legend_background=0x7f02000d;
+        public static final int sci_chart_expression_dark_background=0x7f02000e;
+        public static final int sci_chart_expression_dark_label_background=0x7f02000f;
+        public static final int sci_chart_expression_dark_legend_background=0x7f020010;
+        public static final int sci_chart_expression_light_background=0x7f020011;
+        public static final int sci_chart_expression_light_label_background=0x7f020012;
+        public static final int sci_chart_expression_light_legend_background=0x7f020013;
+        public static final int sci_chart_oscilloscope_background=0x7f020014;
+        public static final int sci_chart_oscilloscope_label_background=0x7f020015;
+        public static final int sci_chart_oscilloscope_legend_background=0x7f020016;
+        public static final int sci_chart_tooltip_background=0x7f020017;
+        public static final int sci_chart_v4_dark_background=0x7f020018;
+        public static final int sci_chart_v4_dark_label_background=0x7f020019;
+        public static final int sci_chart_v4_dark_legend_background=0x7f02001a;
     }
     public static final class id {
-        public static final int consoleText=0x7f07000a;
-        public static final int demoScroller=0x7f070009;
-        public static final int demoTitle=0x7f070001;
-        public static final int deviceList=0x7f070004;
-        public static final int plotView1=0x7f070005;
-        public static final int progressBar=0x7f070002;
-        public static final int progressBarTitle=0x7f070000;
-        public static final int separator=0x7f070003;
-        public static final int sleepButton=0x7f070008;
-        public static final int startButton=0x7f070006;
-        public static final int stopButton=0x7f070007;
+        public static final int adornerLayer=0x7f080012;
+        public static final int annotationSurface=0x7f08000e;
+        public static final int axisModifierSurfaceArea=0x7f080011;
+        public static final int chartModifierSurface=0x7f08000f;
+        public static final int chartSurface=0x7f080018;
+        public static final int checkBox1=0x7f080019;
+        public static final int colorMapView=0x7f08000a;
+        public static final int consoleText=0x7f080017;
+        public static final int demoScroller=0x7f080016;
+        public static final int demoTitle=0x7f080006;
+        public static final int deviceList=0x7f080009;
+        public static final int isVisible=0x7f080002;
+        public static final int maximumTextView=0x7f08000d;
+        public static final int middleTextView=0x7f08000c;
+        public static final int minimumTextView=0x7f08000b;
+        public static final int name=0x7f080004;
+        public static final int pointMarker=0x7f080003;
+        public static final int progressBar=0x7f080007;
+        public static final int progressBarTitle=0x7f080005;
+        public static final int renderableSeriesArea=0x7f080010;
+        public static final int rotateLayout=0x7f080000;
+        public static final int separator=0x7f080008;
+        public static final int sleepButton=0x7f080015;
+        public static final int startButton=0x7f080013;
+        public static final int stopButton=0x7f080014;
+        public static final int text=0x7f080001;
     }
     public static final class layout {
-        public static final int main=0x7f030000;
-        public static final int serial_console=0x7f030001;
+        public static final int axis_marker_annotation_layout=0x7f030000;
+        public static final int horizontal_legend_placeholder_layout=0x7f030001;
+        public static final int legend_item=0x7f030002;
+        public static final int main=0x7f030003;
+        public static final int scichart_default_cursor_modifier_tooltip_container=0x7f030004;
+        public static final int scichart_default_tooltip_modifier_tooltip_container=0x7f030005;
+        public static final int scichart_heatmap_colour_map_horizontal_layout=0x7f030006;
+        public static final int scichart_heatmap_colour_map_vertical_layout=0x7f030007;
+        public static final int scihart_surface_layout=0x7f030008;
+        public static final int serial_console=0x7f030009;
+        public static final int text_annotation_layout=0x7f03000a;
+        public static final int vertical_legend_placeholder_layout=0x7f03000b;
     }
     public static final class string {
-        public static final int ApplicationName=0x7f050001;
-        public static final int Hello=0x7f050000;
-        public static final int app_name=0x7f050002;
-        public static final int refreshing=0x7f050003;
-        public static final int sleep=0x7f050004;
-        public static final int wakeup=0x7f050005;
+        public static final int ApplicationName=0x7f070001;
+        public static final int Hello=0x7f070000;
+        public static final int app_name=0x7f070002;
+        public static final int refreshing=0x7f070003;
+        public static final int sleep=0x7f070004;
+        public static final int wakeup=0x7f070005;
     }
     public static final class style {
-        public static final int Theme_Custom=0x7f060000;
+        public static final int SciChart_BaseStyle=0x7f060000;
+        public static final int SciChart_BlackSteel=0x7f060001;
+        public static final int SciChart_Bright_Spark=0x7f060002;
+        public static final int SciChart_ChromeStyle=0x7f060003;
+        public static final int SciChart_ElectricStyle=0x7f060004;
+        public static final int SciChart_ExpressionDarkStyle=0x7f060005;
+        public static final int SciChart_ExpressionLightStyle=0x7f060006;
+        public static final int SciChart_OscilloscopeStyle=0x7f060007;
+        public static final int SciChart_SciChartv4DarkStyle=0x7f060008;
+        public static final int Theme_Custom=0x7f060009;
     }
     public static final class xml {
         public static final int device_filter=0x7f040000;
     }
+    public static final class styleable {
+        /** Attributes that can be used with a SciChartHeatmapColourMap.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #SciChartHeatmapColourMap_android_orientation android:orientation}</code></td><td></td></tr>
+           </table>
+           @see #SciChartHeatmapColourMap_android_orientation
+         */
+        public static final int[] SciChartHeatmapColourMap = {
+            0x010100c4
+        };
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#orientation}
+          attribute's value can be found in the {@link #SciChartHeatmapColourMap} array.
+          @attr name android:orientation
+        */
+        public static final int SciChartHeatmapColourMap_android_orientation = 0;
+        /** Attributes that can be used with a SciChartLegend.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #SciChartLegend_android_orientation android:orientation}</code></td><td></td></tr>
+           </table>
+           @see #SciChartLegend_android_orientation
+         */
+        public static final int[] SciChartLegend = {
+            0x010100c4
+        };
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#orientation}
+          attribute's value can be found in the {@link #SciChartLegend} array.
+          @attr name android:orientation
+        */
+        public static final int SciChartLegend_android_orientation = 0;
+        /** Attributes that can be used with a ThemeProvider.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #ThemeProvider_axisBandsColor UsbSerial.UsbSerial:axisBandsColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #ThemeProvider_axisTooltipBackground UsbSerial.UsbSerial:axisTooltipBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #ThemeProvider_axisTooltipTextColor UsbSerial.UsbSerial:axisTooltipTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #ThemeProvider_axisTooltipTextSize UsbSerial.UsbSerial:axisTooltipTextSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #ThemeProvider_bandFillDownColor UsbSerial.UsbSerial:bandFillDownColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #ThemeProvider_bandFillUpColor UsbSerial.UsbSerial:bandFillUpColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #ThemeProvider_bandStrokeDownColor UsbSerial.UsbSerial:bandStrokeDownColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #ThemeProvider_bandStrokeUpColor UsbSerial.UsbSerial:bandStrokeUpColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #ThemeProvider_candleStickFillDownColor UsbSerial.UsbSerial:candleStickFillDownColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #ThemeProvider_candleStickFillUpColor UsbSerial.UsbSerial:candleStickFillUpColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #ThemeProvider_candleStickStrokeDownColor UsbSerial.UsbSerial:candleStickStrokeDownColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #ThemeProvider_candleStickStrokeUpColor UsbSerial.UsbSerial:candleStickStrokeUpColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #ThemeProvider_columnFillColor UsbSerial.UsbSerial:columnFillColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #ThemeProvider_columnLineColor UsbSerial.UsbSerial:columnLineColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #ThemeProvider_cursorLineColor UsbSerial.UsbSerial:cursorLineColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #ThemeProvider_defaultAnnotationGripsBackgroundColor UsbSerial.UsbSerial:defaultAnnotationGripsBackgroundColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #ThemeProvider_defaultAnnotationGripsStrokeColor UsbSerial.UsbSerial:defaultAnnotationGripsStrokeColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #ThemeProvider_defaultPieSegmentTitleTextColor UsbSerial.UsbSerial:defaultPieSegmentTitleTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #ThemeProvider_defaultPieSegmentTitleTextSize UsbSerial.UsbSerial:defaultPieSegmentTitleTextSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #ThemeProvider_defaultTextColor UsbSerial.UsbSerial:defaultTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #ThemeProvider_defaultTextSize UsbSerial.UsbSerial:defaultTextSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #ThemeProvider_labelBackground UsbSerial.UsbSerial:labelBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #ThemeProvider_legendBackground UsbSerial.UsbSerial:legendBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #ThemeProvider_lineAnnotationLineColor UsbSerial.UsbSerial:lineAnnotationLineColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #ThemeProvider_lineAnnotationLineThickness UsbSerial.UsbSerial:lineAnnotationLineThickness}</code></td><td></td></tr>
+           <tr><td><code>{@link #ThemeProvider_lineSeriesColor UsbSerial.UsbSerial:lineSeriesColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #ThemeProvider_majorGridLinesColor UsbSerial.UsbSerial:majorGridLinesColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #ThemeProvider_majorTickLinesLength UsbSerial.UsbSerial:majorTickLinesLength}</code></td><td></td></tr>
+           <tr><td><code>{@link #ThemeProvider_minorGridLinesColor UsbSerial.UsbSerial:minorGridLinesColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #ThemeProvider_minorTickLinesLength UsbSerial.UsbSerial:minorTickLinesLength}</code></td><td></td></tr>
+           <tr><td><code>{@link #ThemeProvider_mountainAreaColor UsbSerial.UsbSerial:mountainAreaColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #ThemeProvider_mountainLineColor UsbSerial.UsbSerial:mountainLineColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #ThemeProvider_renderableSeriesAreaBorderColor UsbSerial.UsbSerial:renderableSeriesAreaBorderColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #ThemeProvider_renderableSeriesAreaFillColor UsbSerial.UsbSerial:renderableSeriesAreaFillColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #ThemeProvider_renderableSeriesAreaStrokeThickness UsbSerial.UsbSerial:renderableSeriesAreaStrokeThickness}</code></td><td></td></tr>
+           <tr><td><code>{@link #ThemeProvider_rolloverLineColor UsbSerial.UsbSerial:rolloverLineColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #ThemeProvider_rubberBandFillColor UsbSerial.UsbSerial:rubberBandFillColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #ThemeProvider_rubberBandStrokeColor UsbSerial.UsbSerial:rubberBandStrokeColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #ThemeProvider_sciChartBackground UsbSerial.UsbSerial:sciChartBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #ThemeProvider_textAnnotationBackgroundColor UsbSerial.UsbSerial:textAnnotationBackgroundColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #ThemeProvider_textAnnotationTextColor UsbSerial.UsbSerial:textAnnotationTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #ThemeProvider_textAnnotationTextSize UsbSerial.UsbSerial:textAnnotationTextSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #ThemeProvider_tickTextColor UsbSerial.UsbSerial:tickTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #ThemeProvider_tickTextSize UsbSerial.UsbSerial:tickTextSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #ThemeProvider_tickTextTypeFace UsbSerial.UsbSerial:tickTextTypeFace}</code></td><td></td></tr>
+           <tr><td><code>{@link #ThemeProvider_titleTextSize UsbSerial.UsbSerial:titleTextSize}</code></td><td></td></tr>
+           </table>
+           @see #ThemeProvider_axisBandsColor
+           @see #ThemeProvider_axisTooltipBackground
+           @see #ThemeProvider_axisTooltipTextColor
+           @see #ThemeProvider_axisTooltipTextSize
+           @see #ThemeProvider_bandFillDownColor
+           @see #ThemeProvider_bandFillUpColor
+           @see #ThemeProvider_bandStrokeDownColor
+           @see #ThemeProvider_bandStrokeUpColor
+           @see #ThemeProvider_candleStickFillDownColor
+           @see #ThemeProvider_candleStickFillUpColor
+           @see #ThemeProvider_candleStickStrokeDownColor
+           @see #ThemeProvider_candleStickStrokeUpColor
+           @see #ThemeProvider_columnFillColor
+           @see #ThemeProvider_columnLineColor
+           @see #ThemeProvider_cursorLineColor
+           @see #ThemeProvider_defaultAnnotationGripsBackgroundColor
+           @see #ThemeProvider_defaultAnnotationGripsStrokeColor
+           @see #ThemeProvider_defaultPieSegmentTitleTextColor
+           @see #ThemeProvider_defaultPieSegmentTitleTextSize
+           @see #ThemeProvider_defaultTextColor
+           @see #ThemeProvider_defaultTextSize
+           @see #ThemeProvider_labelBackground
+           @see #ThemeProvider_legendBackground
+           @see #ThemeProvider_lineAnnotationLineColor
+           @see #ThemeProvider_lineAnnotationLineThickness
+           @see #ThemeProvider_lineSeriesColor
+           @see #ThemeProvider_majorGridLinesColor
+           @see #ThemeProvider_majorTickLinesLength
+           @see #ThemeProvider_minorGridLinesColor
+           @see #ThemeProvider_minorTickLinesLength
+           @see #ThemeProvider_mountainAreaColor
+           @see #ThemeProvider_mountainLineColor
+           @see #ThemeProvider_renderableSeriesAreaBorderColor
+           @see #ThemeProvider_renderableSeriesAreaFillColor
+           @see #ThemeProvider_renderableSeriesAreaStrokeThickness
+           @see #ThemeProvider_rolloverLineColor
+           @see #ThemeProvider_rubberBandFillColor
+           @see #ThemeProvider_rubberBandStrokeColor
+           @see #ThemeProvider_sciChartBackground
+           @see #ThemeProvider_textAnnotationBackgroundColor
+           @see #ThemeProvider_textAnnotationTextColor
+           @see #ThemeProvider_textAnnotationTextSize
+           @see #ThemeProvider_tickTextColor
+           @see #ThemeProvider_tickTextSize
+           @see #ThemeProvider_tickTextTypeFace
+           @see #ThemeProvider_titleTextSize
+         */
+        public static final int[] ThemeProvider = {
+            0x7f010000, 0x7f010001, 0x7f010002, 0x7f010003,
+            0x7f010004, 0x7f010005, 0x7f010006, 0x7f010007,
+            0x7f010008, 0x7f010009, 0x7f01000a, 0x7f01000b,
+            0x7f01000c, 0x7f01000d, 0x7f01000e, 0x7f01000f,
+            0x7f010010, 0x7f010011, 0x7f010012, 0x7f010013,
+            0x7f010014, 0x7f010015, 0x7f010016, 0x7f010017,
+            0x7f010018, 0x7f010019, 0x7f01001a, 0x7f01001b,
+            0x7f01001c, 0x7f01001d, 0x7f01001e, 0x7f01001f,
+            0x7f010020, 0x7f010021, 0x7f010022, 0x7f010023,
+            0x7f010024, 0x7f010025, 0x7f010026, 0x7f010027,
+            0x7f010028, 0x7f010029, 0x7f01002a, 0x7f01002b,
+            0x7f01002c, 0x7f01002d
+        };
+        /**
+          <p>This symbol is the offset where the {@link UsbSerial.UsbSerial.R.attr#axisBandsColor}
+          attribute's value can be found in the {@link #ThemeProvider} array.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name UsbSerial.UsbSerial:axisBandsColor
+        */
+        public static final int ThemeProvider_axisBandsColor = 13;
+        /**
+          <p>This symbol is the offset where the {@link UsbSerial.UsbSerial.R.attr#axisTooltipBackground}
+          attribute's value can be found in the {@link #ThemeProvider} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name UsbSerial.UsbSerial:axisTooltipBackground
+        */
+        public static final int ThemeProvider_axisTooltipBackground = 22;
+        /**
+          <p>This symbol is the offset where the {@link UsbSerial.UsbSerial.R.attr#axisTooltipTextColor}
+          attribute's value can be found in the {@link #ThemeProvider} array.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name UsbSerial.UsbSerial:axisTooltipTextColor
+        */
+        public static final int ThemeProvider_axisTooltipTextColor = 20;
+        /**
+          <p>This symbol is the offset where the {@link UsbSerial.UsbSerial.R.attr#axisTooltipTextSize}
+          attribute's value can be found in the {@link #ThemeProvider} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name UsbSerial.UsbSerial:axisTooltipTextSize
+        */
+        public static final int ThemeProvider_axisTooltipTextSize = 21;
+        /**
+          <p>This symbol is the offset where the {@link UsbSerial.UsbSerial.R.attr#bandFillDownColor}
+          attribute's value can be found in the {@link #ThemeProvider} array.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name UsbSerial.UsbSerial:bandFillDownColor
+        */
+        public static final int ThemeProvider_bandFillDownColor = 36;
+        /**
+          <p>This symbol is the offset where the {@link UsbSerial.UsbSerial.R.attr#bandFillUpColor}
+          attribute's value can be found in the {@link #ThemeProvider} array.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name UsbSerial.UsbSerial:bandFillUpColor
+        */
+        public static final int ThemeProvider_bandFillUpColor = 35;
+        /**
+          <p>This symbol is the offset where the {@link UsbSerial.UsbSerial.R.attr#bandStrokeDownColor}
+          attribute's value can be found in the {@link #ThemeProvider} array.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name UsbSerial.UsbSerial:bandStrokeDownColor
+        */
+        public static final int ThemeProvider_bandStrokeDownColor = 34;
+        /**
+          <p>This symbol is the offset where the {@link UsbSerial.UsbSerial.R.attr#bandStrokeUpColor}
+          attribute's value can be found in the {@link #ThemeProvider} array.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name UsbSerial.UsbSerial:bandStrokeUpColor
+        */
+        public static final int ThemeProvider_bandStrokeUpColor = 33;
+        /**
+          <p>This symbol is the offset where the {@link UsbSerial.UsbSerial.R.attr#candleStickFillDownColor}
+          attribute's value can be found in the {@link #ThemeProvider} array.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name UsbSerial.UsbSerial:candleStickFillDownColor
+        */
+        public static final int ThemeProvider_candleStickFillDownColor = 32;
+        /**
+          <p>This symbol is the offset where the {@link UsbSerial.UsbSerial.R.attr#candleStickFillUpColor}
+          attribute's value can be found in the {@link #ThemeProvider} array.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name UsbSerial.UsbSerial:candleStickFillUpColor
+        */
+        public static final int ThemeProvider_candleStickFillUpColor = 31;
+        /**
+          <p>This symbol is the offset where the {@link UsbSerial.UsbSerial.R.attr#candleStickStrokeDownColor}
+          attribute's value can be found in the {@link #ThemeProvider} array.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name UsbSerial.UsbSerial:candleStickStrokeDownColor
+        */
+        public static final int ThemeProvider_candleStickStrokeDownColor = 30;
+        /**
+          <p>This symbol is the offset where the {@link UsbSerial.UsbSerial.R.attr#candleStickStrokeUpColor}
+          attribute's value can be found in the {@link #ThemeProvider} array.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name UsbSerial.UsbSerial:candleStickStrokeUpColor
+        */
+        public static final int ThemeProvider_candleStickStrokeUpColor = 29;
+        /**
+          <p>This symbol is the offset where the {@link UsbSerial.UsbSerial.R.attr#columnFillColor}
+          attribute's value can be found in the {@link #ThemeProvider} array.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name UsbSerial.UsbSerial:columnFillColor
+        */
+        public static final int ThemeProvider_columnFillColor = 28;
+        /**
+          <p>This symbol is the offset where the {@link UsbSerial.UsbSerial.R.attr#columnLineColor}
+          attribute's value can be found in the {@link #ThemeProvider} array.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name UsbSerial.UsbSerial:columnLineColor
+        */
+        public static final int ThemeProvider_columnLineColor = 27;
+        /**
+          <p>This symbol is the offset where the {@link UsbSerial.UsbSerial.R.attr#cursorLineColor}
+          attribute's value can be found in the {@link #ThemeProvider} array.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name UsbSerial.UsbSerial:cursorLineColor
+        */
+        public static final int ThemeProvider_cursorLineColor = 17;
+        /**
+          <p>This symbol is the offset where the {@link UsbSerial.UsbSerial.R.attr#defaultAnnotationGripsBackgroundColor}
+          attribute's value can be found in the {@link #ThemeProvider} array.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name UsbSerial.UsbSerial:defaultAnnotationGripsBackgroundColor
+        */
+        public static final int ThemeProvider_defaultAnnotationGripsBackgroundColor = 43;
+        /**
+          <p>This symbol is the offset where the {@link UsbSerial.UsbSerial.R.attr#defaultAnnotationGripsStrokeColor}
+          attribute's value can be found in the {@link #ThemeProvider} array.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name UsbSerial.UsbSerial:defaultAnnotationGripsStrokeColor
+        */
+        public static final int ThemeProvider_defaultAnnotationGripsStrokeColor = 42;
+        /**
+          <p>This symbol is the offset where the {@link UsbSerial.UsbSerial.R.attr#defaultPieSegmentTitleTextColor}
+          attribute's value can be found in the {@link #ThemeProvider} array.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name UsbSerial.UsbSerial:defaultPieSegmentTitleTextColor
+        */
+        public static final int ThemeProvider_defaultPieSegmentTitleTextColor = 45;
+        /**
+          <p>This symbol is the offset where the {@link UsbSerial.UsbSerial.R.attr#defaultPieSegmentTitleTextSize}
+          attribute's value can be found in the {@link #ThemeProvider} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name UsbSerial.UsbSerial:defaultPieSegmentTitleTextSize
+        */
+        public static final int ThemeProvider_defaultPieSegmentTitleTextSize = 44;
+        /**
+          <p>This symbol is the offset where the {@link UsbSerial.UsbSerial.R.attr#defaultTextColor}
+          attribute's value can be found in the {@link #ThemeProvider} array.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name UsbSerial.UsbSerial:defaultTextColor
+        */
+        public static final int ThemeProvider_defaultTextColor = 6;
+        /**
+          <p>This symbol is the offset where the {@link UsbSerial.UsbSerial.R.attr#defaultTextSize}
+          attribute's value can be found in the {@link #ThemeProvider} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name UsbSerial.UsbSerial:defaultTextSize
+        */
+        public static final int ThemeProvider_defaultTextSize = 5;
+        /**
+          <p>This symbol is the offset where the {@link UsbSerial.UsbSerial.R.attr#labelBackground}
+          attribute's value can be found in the {@link #ThemeProvider} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name UsbSerial.UsbSerial:labelBackground
+        */
+        public static final int ThemeProvider_labelBackground = 23;
+        /**
+          <p>This symbol is the offset where the {@link UsbSerial.UsbSerial.R.attr#legendBackground}
+          attribute's value can be found in the {@link #ThemeProvider} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name UsbSerial.UsbSerial:legendBackground
+        */
+        public static final int ThemeProvider_legendBackground = 4;
+        /**
+          <p>This symbol is the offset where the {@link UsbSerial.UsbSerial.R.attr#lineAnnotationLineColor}
+          attribute's value can be found in the {@link #ThemeProvider} array.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name UsbSerial.UsbSerial:lineAnnotationLineColor
+        */
+        public static final int ThemeProvider_lineAnnotationLineColor = 37;
+        /**
+          <p>This symbol is the offset where the {@link UsbSerial.UsbSerial.R.attr#lineAnnotationLineThickness}
+          attribute's value can be found in the {@link #ThemeProvider} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name UsbSerial.UsbSerial:lineAnnotationLineThickness
+        */
+        public static final int ThemeProvider_lineAnnotationLineThickness = 38;
+        /**
+          <p>This symbol is the offset where the {@link UsbSerial.UsbSerial.R.attr#lineSeriesColor}
+          attribute's value can be found in the {@link #ThemeProvider} array.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name UsbSerial.UsbSerial:lineSeriesColor
+        */
+        public static final int ThemeProvider_lineSeriesColor = 26;
+        /**
+          <p>This symbol is the offset where the {@link UsbSerial.UsbSerial.R.attr#majorGridLinesColor}
+          attribute's value can be found in the {@link #ThemeProvider} array.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name UsbSerial.UsbSerial:majorGridLinesColor
+        */
+        public static final int ThemeProvider_majorGridLinesColor = 11;
+        /**
+          <p>This symbol is the offset where the {@link UsbSerial.UsbSerial.R.attr#majorTickLinesLength}
+          attribute's value can be found in the {@link #ThemeProvider} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name UsbSerial.UsbSerial:majorTickLinesLength
+        */
+        public static final int ThemeProvider_majorTickLinesLength = 15;
+        /**
+          <p>This symbol is the offset where the {@link UsbSerial.UsbSerial.R.attr#minorGridLinesColor}
+          attribute's value can be found in the {@link #ThemeProvider} array.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name UsbSerial.UsbSerial:minorGridLinesColor
+        */
+        public static final int ThemeProvider_minorGridLinesColor = 12;
+        /**
+          <p>This symbol is the offset where the {@link UsbSerial.UsbSerial.R.attr#minorTickLinesLength}
+          attribute's value can be found in the {@link #ThemeProvider} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name UsbSerial.UsbSerial:minorTickLinesLength
+        */
+        public static final int ThemeProvider_minorTickLinesLength = 14;
+        /**
+          <p>This symbol is the offset where the {@link UsbSerial.UsbSerial.R.attr#mountainAreaColor}
+          attribute's value can be found in the {@link #ThemeProvider} array.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name UsbSerial.UsbSerial:mountainAreaColor
+        */
+        public static final int ThemeProvider_mountainAreaColor = 25;
+        /**
+          <p>This symbol is the offset where the {@link UsbSerial.UsbSerial.R.attr#mountainLineColor}
+          attribute's value can be found in the {@link #ThemeProvider} array.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name UsbSerial.UsbSerial:mountainLineColor
+        */
+        public static final int ThemeProvider_mountainLineColor = 24;
+        /**
+          <p>This symbol is the offset where the {@link UsbSerial.UsbSerial.R.attr#renderableSeriesAreaBorderColor}
+          attribute's value can be found in the {@link #ThemeProvider} array.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name UsbSerial.UsbSerial:renderableSeriesAreaBorderColor
+        */
+        public static final int ThemeProvider_renderableSeriesAreaBorderColor = 2;
+        /**
+          <p>This symbol is the offset where the {@link UsbSerial.UsbSerial.R.attr#renderableSeriesAreaFillColor}
+          attribute's value can be found in the {@link #ThemeProvider} array.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name UsbSerial.UsbSerial:renderableSeriesAreaFillColor
+        */
+        public static final int ThemeProvider_renderableSeriesAreaFillColor = 1;
+        /**
+          <p>This symbol is the offset where the {@link UsbSerial.UsbSerial.R.attr#renderableSeriesAreaStrokeThickness}
+          attribute's value can be found in the {@link #ThemeProvider} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name UsbSerial.UsbSerial:renderableSeriesAreaStrokeThickness
+        */
+        public static final int ThemeProvider_renderableSeriesAreaStrokeThickness = 3;
+        /**
+          <p>This symbol is the offset where the {@link UsbSerial.UsbSerial.R.attr#rolloverLineColor}
+          attribute's value can be found in the {@link #ThemeProvider} array.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name UsbSerial.UsbSerial:rolloverLineColor
+        */
+        public static final int ThemeProvider_rolloverLineColor = 16;
+        /**
+          <p>This symbol is the offset where the {@link UsbSerial.UsbSerial.R.attr#rubberBandFillColor}
+          attribute's value can be found in the {@link #ThemeProvider} array.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name UsbSerial.UsbSerial:rubberBandFillColor
+        */
+        public static final int ThemeProvider_rubberBandFillColor = 19;
+        /**
+          <p>This symbol is the offset where the {@link UsbSerial.UsbSerial.R.attr#rubberBandStrokeColor}
+          attribute's value can be found in the {@link #ThemeProvider} array.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name UsbSerial.UsbSerial:rubberBandStrokeColor
+        */
+        public static final int ThemeProvider_rubberBandStrokeColor = 18;
+        /**
+          <p>This symbol is the offset where the {@link UsbSerial.UsbSerial.R.attr#sciChartBackground}
+          attribute's value can be found in the {@link #ThemeProvider} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name UsbSerial.UsbSerial:sciChartBackground
+        */
+        public static final int ThemeProvider_sciChartBackground = 0;
+        /**
+          <p>This symbol is the offset where the {@link UsbSerial.UsbSerial.R.attr#textAnnotationBackgroundColor}
+          attribute's value can be found in the {@link #ThemeProvider} array.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name UsbSerial.UsbSerial:textAnnotationBackgroundColor
+        */
+        public static final int ThemeProvider_textAnnotationBackgroundColor = 40;
+        /**
+          <p>This symbol is the offset where the {@link UsbSerial.UsbSerial.R.attr#textAnnotationTextColor}
+          attribute's value can be found in the {@link #ThemeProvider} array.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name UsbSerial.UsbSerial:textAnnotationTextColor
+        */
+        public static final int ThemeProvider_textAnnotationTextColor = 39;
+        /**
+          <p>This symbol is the offset where the {@link UsbSerial.UsbSerial.R.attr#textAnnotationTextSize}
+          attribute's value can be found in the {@link #ThemeProvider} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name UsbSerial.UsbSerial:textAnnotationTextSize
+        */
+        public static final int ThemeProvider_textAnnotationTextSize = 41;
+        /**
+          <p>This symbol is the offset where the {@link UsbSerial.UsbSerial.R.attr#tickTextColor}
+          attribute's value can be found in the {@link #ThemeProvider} array.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name UsbSerial.UsbSerial:tickTextColor
+        */
+        public static final int ThemeProvider_tickTextColor = 10;
+        /**
+          <p>This symbol is the offset where the {@link UsbSerial.UsbSerial.R.attr#tickTextSize}
+          attribute's value can be found in the {@link #ThemeProvider} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name UsbSerial.UsbSerial:tickTextSize
+        */
+        public static final int ThemeProvider_tickTextSize = 7;
+        /**
+          <p>This symbol is the offset where the {@link UsbSerial.UsbSerial.R.attr#tickTextTypeFace}
+          attribute's value can be found in the {@link #ThemeProvider} array.
+
+
+          <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name UsbSerial.UsbSerial:tickTextTypeFace
+        */
+        public static final int ThemeProvider_tickTextTypeFace = 9;
+        /**
+          <p>This symbol is the offset where the {@link UsbSerial.UsbSerial.R.attr#titleTextSize}
+          attribute's value can be found in the {@link #ThemeProvider} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name UsbSerial.UsbSerial:titleTextSize
+        */
+        public static final int ThemeProvider_titleTextSize = 8;
+    };
 }
