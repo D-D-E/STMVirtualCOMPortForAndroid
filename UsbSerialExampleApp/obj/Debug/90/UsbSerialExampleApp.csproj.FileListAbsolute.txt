@@ -104,7 +104,6 @@ C:\Users\dashk\OneDrive\Desktop\UsbSerialForAndroid-master\UsbSerialExampleApp\o
 C:\Users\dashk\OneDrive\Desktop\UsbSerialForAndroid-master\UsbSerialExampleApp\obj\Debug\90\android\assets\Android.UsbSerial.dll
 C:\Users\dashk\OneDrive\Desktop\UsbSerialForAndroid-master\UsbSerialExampleApp\obj\Debug\90\android\assets\Android.UsbSerial.dll.mdb
 C:\Users\dashk\OneDrive\Desktop\UsbSerialForAndroid-master\UsbSerialExampleApp\obj\Debug\90\android\assets\Java.Interop.dll
-C:\Users\dashk\OneDrive\Desktop\UsbSerialForAndroid-master\UsbSerialExampleApp\obj\Debug\90\android\assets\machine.config
 C:\Users\dashk\OneDrive\Desktop\UsbSerialForAndroid-master\UsbSerialExampleApp\obj\Debug\90\android\assets\Mono.Android.dll
 C:\Users\dashk\OneDrive\Desktop\UsbSerialForAndroid-master\UsbSerialExampleApp\obj\Debug\90\android\assets\Mono.Android.Export.dll
 C:\Users\dashk\OneDrive\Desktop\UsbSerialForAndroid-master\UsbSerialExampleApp\obj\Debug\90\android\assets\Mono.Security.dll
@@ -145,5 +144,18 @@ C:\Users\dashk\OneDrive\Desktop\UsbSerialForAndroid-master\UsbSerialExampleApp\o
 C:\Users\dashk\OneDrive\Desktop\UsbSerialForAndroid-master\UsbSerialExampleApp\obj\Debug\90\stamp\_CopyMdbFiles.stamp
 C:\Users\dashk\OneDrive\Desktop\UsbSerialForAndroid-master\UsbSerialExampleApp\obj\Debug\90\stamp\_CopyPdbFiles.stamp
 C:\Users\dashk\OneDrive\Desktop\UsbSerialForAndroid-master\UsbSerialExampleApp\obj\Debug\90\stamp\_ResolveLibraryProjectImports.stamp
+C:\Users\dashk\OneDrive\Desktop\UsbSerialForAndroid-master\UsbSerialExampleApp\obj\Debug\90\android\assets\Mono.Android.Export.pdb
+C:\Users\dashk\OneDrive\Desktop\UsbSerialForAndroid-master\UsbSerialExampleApp\obj\Debug\90\android\assets\Mono.Android.pdb
+C:\Users\dashk\OneDrive\Desktop\UsbSerialForAndroid-master\UsbSerialExampleApp\obj\Debug\90\android\assets\Mono.Security.pdb
+C:\Users\dashk\OneDrive\Desktop\UsbSerialForAndroid-master\UsbSerialExampleApp\obj\Debug\90\android\assets\mscorlib.pdb
+C:\Users\dashk\OneDrive\Desktop\UsbSerialForAndroid-master\UsbSerialExampleApp\obj\Debug\90\android\assets\System.ComponentModel.Composition.pdb
+C:\Users\dashk\OneDrive\Desktop\UsbSerialForAndroid-master\UsbSerialExampleApp\obj\Debug\90\android\assets\System.Core.pdb
+C:\Users\dashk\OneDrive\Desktop\UsbSerialForAndroid-master\UsbSerialExampleApp\obj\Debug\90\android\assets\System.Net.Http.pdb
+C:\Users\dashk\OneDrive\Desktop\UsbSerialForAndroid-master\UsbSerialExampleApp\obj\Debug\90\android\assets\System.pdb
+C:\Users\dashk\OneDrive\Desktop\UsbSerialForAndroid-master\UsbSerialExampleApp\obj\Debug\90\android\assets\System.Runtime.Serialization.pdb
+C:\Users\dashk\OneDrive\Desktop\UsbSerialForAndroid-master\UsbSerialExampleApp\obj\Debug\90\android\assets\System.ServiceModel.Internals.pdb
+C:\Users\dashk\OneDrive\Desktop\UsbSerialForAndroid-master\UsbSerialExampleApp\obj\Debug\90\android\assets\System.Xml.Linq.pdb
+C:\Users\dashk\OneDrive\Desktop\UsbSerialForAndroid-master\UsbSerialExampleApp\obj\Debug\90\android\assets\System.Xml.pdb
+C:\Users\dashk\OneDrive\Desktop\UsbSerialForAndroid-master\UsbSerialExampleApp\obj\Debug\90\android\assets\machine.config
 C:\Users\dashk\OneDrive\Desktop\UsbSerialForAndroid-master\UsbSerialExampleApp\obj\Debug\90\stamp\_CompileToDalvik.stamp
 C:\Users\dashk\OneDrive\Desktop\UsbSerialForAndroid-master\UsbSerialExampleApp\obj\Debug\90\stamp\_GeneratePackageManagerJava.stamp

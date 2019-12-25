@@ -20,3 +20,4 @@ C:\Users\dashk\OneDrive\Desktop\UsbSerialForAndroid-master\UsbSerialForAndroid\o
 C:\Users\dashk\OneDrive\Desktop\UsbSerialForAndroid-master\UsbSerialForAndroid\obj\Debug\90\uploadflags.txt
 C:\Users\dashk\OneDrive\Desktop\UsbSerialForAndroid-master\UsbSerialForAndroid\obj\Debug\90\stamp\_BuildAdditionalResourcesCache.stamp
 C:\Users\dashk\OneDrive\Desktop\UsbSerialForAndroid-master\UsbSerialForAndroid\obj\Debug\90\stamp\_ResolveLibraryProjectImports.stamp
+C:\Users\dashk\OneDrive\Desktop\UsbSerialForAndroid-master\UsbSerialForAndroid\bin\Debug\Android.UsbSerial.dll.mdb
